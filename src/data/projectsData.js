@@ -3,7 +3,7 @@ export const projectsData = [
     id: 1,
     title: "Casta",
     date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
+    languages: ["React", "javascript", "Sass"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "./assets/img/projet-2.jpg",
@@ -13,7 +13,7 @@ export const projectsData = [
     id: 2,
     title: "Lyon Béton",
     date: "Mars 2020",
-    languages: ["Symfony", "Vue"],
+    languages: ["node.js", "express"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "./assets/img/projet-1.jpg",
@@ -23,7 +23,7 @@ export const projectsData = [
     id: 3,
     title: "Everpost",
     date: "Avril 2020",
-    languages: ["Wordpress", "Php", "React"],
+    languages: ["javascript", "React"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "./assets/img/projet-3.jpg",
@@ -33,7 +33,7 @@ export const projectsData = [
     id: 4,
     title: "Creative Dev",
     date: "Juillet 2020",
-    languages: ["Vue", "Php"],
+    languages: ["React-native", "javascript"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "./assets/img/projet-4.jpg",
