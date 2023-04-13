@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { init} from "@emailjs/browser";
+import { init } from "@emailjs/browser";
 init(process.env.ID);
 
 const ContactForm = () => {
@@ -21,7 +21,7 @@ const ContactForm = () => {
         (result) => {
           // console.log(result.text);
           form.current.reset();
-          formMess.innerHTML = "<p class='success'>Message envoyé !</p>";
+          formMess.innerHTML = "<p className='success'>Message envoyé !</p>";
           setTimeout(() => {
             formMess.innerHTML = "";
           }, 2500);
@@ -29,7 +29,7 @@ const ContactForm = () => {
         (error) => {
           // console.log(error.text);
           formMess.innerHTML =
-            "<p class='error'>Une erreure s'est produite, veuillez réessayer </p>";
+            "<p className='error'>Une erreure s'est produite, veuillez réessayer </p>";
           setTimeout(() => {
             formMess.innerHTML = "";
           }, 2500);

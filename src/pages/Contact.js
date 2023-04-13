@@ -3,6 +3,8 @@ import Mouse from "../components/Mouse";
 import Navigation from "../components/Navigation";
 import Logo from "../components/Logo";
 import ContactForm from "../components/ContactForm";
+import SocialNetwork from "../components/SocialNetwork";
+import Buttons from "../components/Buttons";
 import CopyToClipboard from "react-copy-to-clipboard";
 
 const Contact = () => {
@@ -35,7 +37,26 @@ const Contact = () => {
               </CopyToClipboard>
             </div>
           </div>
+          <div className="email">
+            <div className="content">
+              <h4>email</h4>
+              <CopyToClipboard text="zoufan9@gmail.com" className="over">
+                <p
+                  style={{ cursor: "pointer" }}
+                  className="clipboard"
+                  onClick={() => alert("email coplié !")}
+                >
+                  zoufan9@gmail.com
+                </p>
+              </CopyToClipboard>
+            </div>
+          </div>
+          < SocialNetwork />
+          <div className="credits">
+            <p>Zouhair Fanan - 2023</p>
+          </div>
         </div>
+        <Buttons left={"/projet-4"} />
       </div>
     </main>
   );
