@@ -15,7 +15,7 @@ const ContactForm = () => {
         "service_9w1bfzn",
         "template_z51hqdc",
         form.current,
-        process.env.REACT_APP_ID
+        process.env.REACT_APP_ID,
       )
       .then(
         (result) => {
@@ -39,7 +39,7 @@ const ContactForm = () => {
 
   return (
     <div className="form-container">
-      <h2>contactez-nous</h2>
+      <h2>n'hésitez pas à me contacter</h2>
       <form ref={form} onSubmit={sendEmail} className="form-content">
         <label>Nom</label>
         <input type="text" name="name" required autoComplete="off" id="name" />

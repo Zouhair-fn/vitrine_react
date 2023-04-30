@@ -1,42 +1,32 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
+    title: "Countries",
+    date: "mars 2023",
     languages: ["React", "javascript", "Sass"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "J'ai créé un site web avec React, en utilisant une API pour récupérer les données des pays. La technologie React m'a permis de créer une interface utilisateur dynamique et conviviale. L'utilisation de l'API a permis de récupérer des données en temps réel et d'afficher des informations précises sur les pays. Le résultat est un site web fonctionnel, esthétique et facile à utiliser. La combinaison de React et de l'API a été une expérience enrichissante pour moi en tant que développeur.",
     img: "./assets/img/projet-2.jpg",
     link: "http://www.google.com",
   },
   {
     id: 2,
-    title: "Lyon Béton",
-    date: "Mars 2020",
-    languages: ["node.js", "express"],
+    title: "Portfolio",
+    date: "Mars 2023",
+    languages: ["React", "Tailwind CSS"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "J'ai créé un portfolio en ligne avec l'utilisation de : React et Tailwind CSS. J'ai utilisé ces deux technologies pour créer un site web élégant.",
     img: "./assets/img/projet-1.jpg",
     link: "http://www.google.com",
   },
   {
     id: 3,
-    title: "Everpost",
-    date: "Avril 2020",
-    languages: ["javascript", "React"],
+    title: "Node.js",
+    date: "Avril 2023",
+    languages: ["Node.js", "Express"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "J'ai développé une petite application Node.js qui permet d'effectuer des opérations CRUD (Create, Read, Update, Delete) sur une base de données.",
     img: "./assets/img/projet-3.jpg",
-    link: "http://www.google.com",
-  },
-  {
-    id: 4,
-    title: "Creative Dev",
-    date: "Juillet 2020",
-    languages: ["React-native", "javascript"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-4.jpg",
     link: "http://www.google.com",
   },
 ];

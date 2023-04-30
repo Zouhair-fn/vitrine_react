@@ -7,6 +7,7 @@ import SocialNetwork from "../components/SocialNetwork";
 import Buttons from "../components/Buttons";
 import CopyToClipboard from "react-copy-to-clipboard";
 
+
 const Contact = () => {
   return (
     <main>
@@ -19,8 +20,8 @@ const Contact = () => {
           <div className="address">
             <div className="content">
               <h4>adresse</h4>
-              <p>07 rue Laplace</p>
-              <p>06000</p>
+              <p>07 rue fodere</p>
+              <p>06300</p>
             </div>
           </div>
           <div className="phone">
@@ -32,7 +33,7 @@ const Contact = () => {
                   className="clipboard"
                   onClick={() => alert("Téléphone coplié !")}
                 >
-                  06 06 56 08 54
+                  06 09 39 00 36
                 </p>
               </CopyToClipboard>
             </div>
@@ -56,7 +57,7 @@ const Contact = () => {
             <p>Zouhair Fanan - 2023</p>
           </div>
         </div>
-        <Buttons left={"/projet-4"} />
+        <Buttons left={"/projet-3"} />
       </div>
     </main>
   );
